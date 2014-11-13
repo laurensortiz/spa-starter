@@ -1,0 +1,98 @@
+[
+    {
+        "price": "23.000.000",
+        "brand": "Chevrolet",
+        "model": "Sprint",
+        "year": 1994,
+        "color": "Blue",
+        "deal": false
+    },
+    {
+        "price": "28.000.000",
+        "brand": "Chevrolet",
+        "model": "Swift",
+        "year": 1998,
+        "color": "White",
+        "deal": false
+    },
+    {
+        "price": "35.000.000",
+        "brand": "Chevrolet",
+        "model": "Spark",
+        "year": 2010,
+        "color": "Smoke",
+        "deal": false
+    },
+    {
+        "price": "50.000.000",
+        "brand": "Chevrolet",
+        "model": "Camaro",
+        "year": 2015,
+        "color": "Black",
+        "deal": true
+    },
+    {
+        "price": "13.000.000",
+        "brand": "Renault",
+        "model": "Megane",
+        "year": 2000,
+        "color": "Gray",
+        "deal": false
+    },
+    {
+        "price": "18.500.000",
+        "brand": "Renault",
+        "model": "Duster",
+        "year": 2013,
+        "color": "Black",
+        "deal": false
+    },
+    {
+        "price": "35.000.000",
+        "brand": "Renault",
+        "model": "Clio",
+        "year": 2010,
+        "color": "Palid blue",
+        "deal": false
+    },
+    {
+        "price": "60.000.000",
+        "brand": "Renault",
+        "model": "Fluence",
+        "year": 2015,
+        "color": "White",
+        "deal": true
+    },
+    {
+        "price": "80.000.000",
+        "brand": "BMW",
+        "model": "M3",
+        "year": 2009,
+        "color": "White",
+        "deal": false
+    },
+    {
+        "price": "89.000.000",
+        "brand": "BMW",
+        "model": "i8",
+        "year": 2015,
+        "color": "Black",
+        "deal": true
+    },
+    {
+        "price": "300.000.000",
+        "brand": "Rolls Royce",
+        "model": "Phantom",
+        "year": 2015,
+        "color": "Black",
+        "deal": false
+    },
+    {
+        "price": "500.000.000",
+        "brand": "Rolls Royce",
+        "model": "Ghost",
+        "year": 2014,
+        "color": "White",
+        "deal": true
+    }
+]

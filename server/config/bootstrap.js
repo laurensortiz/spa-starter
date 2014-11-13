@@ -1,3 +1,4 @@
+var fs = require('fs');
 /**
  * Bootstrap
  * (sails.config.bootstrap)
@@ -10,8 +11,15 @@
  */
 
 module.exports.bootstrap = function(cb) {
-
+  var initialData = JSON.parse(fs.readFileSync('./fixture/initial-data.json'));
+  Cars.find()
+      .exec(function (err, result) {
+            if (!result.length) {
+                Cars.create(initialData, cb);
+            } else {
+                cb();
+            }
+      });
   // It's very important to trigger this callback method when you are finished
   // with the bootstrap!  (otherwise your server will never lift, since it's waiting on the bootstrap)
-  cb();
 };
